@@ -1,4 +1,4 @@
-print("This is a syntactically valid python file!")
-a = 1 + 1
-b = a + 2
-c = None
+import main
+
+if __name__ == '__main__':
+    main.main("./fibonacci/test_fibonacci.py", "./fibonacci/fibonacci.py")
