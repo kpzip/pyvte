@@ -12,6 +12,7 @@ Only the very basics work right now due to pythons complex syntactic nature.
 | Return Statements | :white_check_mark: Working |
 | Expression Parsing | Partially working |
 | Variable declarations | Partially working |
+| `elif` and `else` statements | :x: Not yet working |
 | Lists & Dictionaries | :x: Not yet working |
 | Classes | :x: Not yet working |
-| Nonlocal and Global variables | :x: Not yet working |
+| `nonlocal` and `global` declarations | :x: Not yet working |
