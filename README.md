@@ -26,3 +26,7 @@ Currently you can use pyvte to test python code like so:
 python main.py <test file path> <file to test path>
 ```
 this will run all functions with names beginning with `test` inside of \<test file path\>, with all code inside of \<file to test path\> being run inside the locked down interpreter. Note that currently you do not and should not need to import the file you are testing inside the test case file. Examples can be found in the `/src/test` folder
+
+## Credits
+This project uses [antlr4](https://www.antlr.org/).
+The parser file and code is borrowed from [this repository](https://github.com/RobEin/ANTLR4-parser-for-Python-3.13).
